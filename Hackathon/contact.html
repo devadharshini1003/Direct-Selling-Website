@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Iconic Warriors</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="F:\Hackathon Images\logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="mainpage.html">Logout</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="F:\Hackathon Images\cart2.png" width="30px" height="30px"></a>
+            <img src="F:\Hackathon Images\menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+     </div>
+</div>
+<!-------Account page-->
+<div class="contact-page">
+    <div class="row">
+        <div class="col-3">
+            <h1>For More Details</h1>
+            <h3>Email: forfarmers@gmail.com</h3>
+            <h3>Phone: 7688860404</h3>
+        </div>
+        <div class="col-2">
+                <div class="form-container-1">
+                    <div class="form-btn">
+                        <p>Have any Question?</p>
+                        <h3>Let's Get In Touch</h3>
+                        <hr id="Indicator2">
+                    </div>
+                    <form id="contact">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <input type="text" placeholder="Subject">
+                        <textarea cols="33" rows="3">Message</textarea>
+                        <button type="submit" class="btn" onclick="forgot()">Message</button>
+                        <a href="index.html">Back to Home</a>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-------footer------>
+<div class="footer">
+    <div class="small-container">
+        <div class="row">
+            <div class="footer-cl-1">
+                <h3>Thank You!</h3>
+                <p>Thank You For Visit Our Page.</p>
+            </div>
+            <div class="footer-cl-2">
+                <img src="F:\Hackathon Images\logo.png">
+                <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits Of Vegetables to the Many.</p>
+            </div>
+            
+            <div class="footer-cl-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 - Iconic Warriors</p>
+    </div>
+</div>
+
+<!------js for toggle menu----->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>

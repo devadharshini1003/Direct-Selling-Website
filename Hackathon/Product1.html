@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Iconic Warriors</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="F:\Hackathon Images\logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="mainpage.html">Logout</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="F:\Hackathon Images\cart2.png" width="30px" height="30px"></a>
+            <img src="F:\Hackathon Images\menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+     
+
+<div class="small-container1">
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <select name="links" id="" size="1" onchange="window.location.href=this.value;">
+            <option value="">Vegetables</option>
+            <option value="#Bottle gourd">Bottle gourd</option>
+            <option value="#Cabbage">Cabbage</option>
+            <option value="#Bitter gourd">Bitter gourd</option>
+            <option value="#Mint">Mint</option>
+            <option value="#Coriander">Coriander</option>
+            <option value="#Pumpkin">Pumpkin</option>
+            <option value="#Beetroot">Beetroot</option>
+            <option value="#Snake gourd">Snake gourd</option>
+            <option value="#Cluster Beans">Cluster Beans</option>
+            <option value="#Green chilli">Green chilli</option>
+            <option value="#Drumstick">Drumstick</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="F:\Hackathon Images\veg13.jpg" id="Radish">
+            <h4>Radish</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.44 per Kg <span style="text-decoration: line-through;">Rs.57</span></p>
+            <a href="#" class="btn-cart">Add To Cart</a>
+        </div>  
+        <div class="col-4">
+            <img src="F:\Hackathon Images\veg14.jpg" id="Bottle gourd">
+            <h4>Bottle gourd</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.73 per Kg <span style="text-decoration: line-through;">Rs.90</span></p>
+            <a href="#" class="btn-cart">Add To Cart</a>
+        </div>  
+        <div class="col-4">
+            <img src="F:\Hackathon Images\veg15.jpg" id="Cabbage">
+            <h4>Cabbage</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.25 per Kg <span style="text-decoration: line-through;">Rs.38</span></p>
+            <a href="#" class="btn-cart">Add To Cart</a>
+        </div>  
+        <div class="col-4">
+            <img src="F:\Hackathon Images\veg16.jpg" id="Bitter gourd">
+            <h4>Bitter gourd</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.67 per Kg <span style="text-decoration: line-through;">Rs.98</span></p>
+            <a href="#" class="btn-cart">Add To Cart</a>
+        </div>  
+        <div class="col-4">
+            <img src="F:\Hackathon Images\veg17.jpg" id="Mint">
+            <h4>Mint</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.112 per Kg <span style="text-decoration: line-through;">Rs.138</span></p>
+            <a href="#" class="btn-cart">Add To Cart</a>
+        </div>  
+        <div class="col-4">
+            <img src="F:\Hackathon Images\veg18.jpg" id="Coriander">
+            <h4>Coriander</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.151 per Kg <span style="text-decoration: line-through;">Rs.180</span></p>
+            <a href="#" class="btn-cart">Add To Cart</a>
+        </div>  
+        <div class="col-4">
+            <img src="F:\Hackathon Images\veg19.jpg" id="Pumpkin">
+            <h4>Pumpkin</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.110 per Kg <span style="text-decoration: line-through;">Rs.130</span></p>
+            <a href="#" class="btn-cart">Add To Cart</a>
+        </div>  
+        <div class="col-4">
+            <img src="F:\Hackathon Images\veg20.jpg" id="Beetroot">
+            <h4>Beetroot</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.67 per Kg <span style="text-decoration: line-through;">Rs.105</span></p>
+            <a href="#" class="btn-cart">Add To Cart</a>
+        </div>  
+        <div class="col-4">
+            <img src="F:\Hackathon Images\veg21.jpg" id="Snake gourd">
+            <h4>Snake gourd</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.41 per Kg <span style="text-decoration: line-through;">Rs.61</span></p>
+            <a href="#" class="btn-cart">Add To Cart</a>
+        </div>  
+        <div class="col-4">
+            <img src="F:\Hackathon Images\veg22.jpg" id="Cluster Beans">
+            <h4>Cluster Beans</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.120 per Kg <span style="text-decoration: line-through;">Rs.190</span></p>
+            <a href="#" class="btn-1">Add To Cart</a>
+        </div>  
+        <div class="col-4">
+            <img src="F:\Hackathon Images\veg23.jpg" id="Green chilli">
+            <h4>Green Chilli</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.80 per Kg <span style="text-decoration: line-through;">Rs.120</span></p>
+            <a href="#" class="btn-cart">Add To Cart</a>
+        </div>  
+        <div class="col-4">
+            <img src="F:\Hackathon Images\veg24.jpg" id="Drumstick">
+            <h4>Drumstick</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs.35 per Kg <span style="text-decoration: line-through;">Rs.60</span></p>
+            <a href="#" class="btn-cart">Add To Cart</a> 
+        </div>  
+        <div class="page-btn">
+            <span><a href="products.html">1</a></span>
+            <span><a href="Product1.html">2</a></span>
+            <span><a href="Product1.html">&#8594;</a></span>
+        </div>
+    </div>
+    
+</div>
+
+
+<!-------footer------>
+<div class="footer">
+    <div class="small-container">
+        <div class="row">
+            <div class="footer-cl-1">
+                <h3>Thank You!</h3>
+                <p>Thank You For Visit Our Page.</p>
+            </div>
+            <div class="footer-cl-2">
+                <img src="F:\Hackathon Images\logo.png">
+                <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits Of Vegetables to the Many.</p>
+            </div>
+            
+            <div class="footer-cl-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 - Iconic Warriors</p>
+    </div>
+</div>
+
+<!------js for toggle menu----->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>

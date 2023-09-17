@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Iconic Warriors</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="F:\Hackathon Images\logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="mainpage.html">Logout</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="F:\Hackathon Images\cart2.png" width="30px" height="30px"></a>
+            <img src="F:\Hackathon Images\menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+     </div>
+</div>
+<div class="container-about">
+    <div class="row-2">
+        <img src="F:\Hackathon Images\image12.jpg" width="50%">
+    </div>
+    <div class="row-2">
+        <h1>About ForFarmers</h1>
+        <p>ForFarmers is India's favourite online<br> platform that offers freshly<br>hand-picked vegetables right 
+            at<br> your doorsteps, which is operational in<br>Tier-2 and Tier-3 towns of India, catering<br>
+             to 2,00,000+ customers with the fresh<br>
+            produce from farms to plates within 12<br>hours of harvest.
+        </p>
+    </div>
+</div>
+<!-------footer------>
+<div class="footer">
+    <div class="small-container">
+        <div class="row">
+            <div class="footer-cl-1">
+                <h3>Thank You!</h3>
+                <p>Thank You For Visit Our Page.</p>
+            </div>
+            <div class="footer-cl-2">
+                <img src="F:\Hackathon Images\logo.png">
+                <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits Of Vegetables to the Many.</p>
+            </div>
+            
+            <div class="footer-cl-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 - Iconic Warriors</p>
+    </div>
+</div>
+
+<!------js for toggle menu----->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
